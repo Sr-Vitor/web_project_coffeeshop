@@ -18,19 +18,17 @@ body {
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-  position: relative;
   box-sizing: border-box;
   background-image: url("../images/background_header.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
-  margin: 30px 80px 0 30px;
+  padding: 30px 80px 0 30px;
 }
 
 .nav__logo {
@@ -38,12 +36,9 @@ body {
   height: 39px;
 }
 .nav__links {
-  position: absolute;
   display: flex;
   list-style-type: none;
   z-index: 3;
-  top: 30px;
-  right: 80px;
   gap: 20px;
 }
 .nav__link {
@@ -60,7 +55,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 183px 0 0 80px;
 }
 
 .header__title {
@@ -71,6 +65,7 @@ body {
   font-size: 58px;
   line-height: 72px;
   letter-spacing: 1px;
+  padding: 183px 0 0 80px;
   z-index: 2;
 }
 .header_span {
@@ -88,6 +83,7 @@ body {
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  padding: 28px 0 0 80px;
 }
 
 /* Imagem principal */
@@ -122,6 +118,7 @@ body {
   margin-top: auto;
   position: relative; /* Define a base para posicionamento absoluto dos filhos */
   z-index: 3;
+  box-sizing: border-box;
 }
 
 .header__footer_content {
@@ -137,13 +134,13 @@ body {
 .header__schedule {
   position: absolute;
   left: 80px; /* 80px da esquerda */
-  bottom: 30px; /* 30px do fundo */
+  bottom: 40px; /* 30px do fundo */
 }
 
 .header__address {
   position: absolute;
   right: 80px; /* 80px da direita */
-  bottom: 30px; /* 30px do fundo */
+  bottom: 40px; /* 30px do fundo */
 }
 .header__footer_span {
   display: block;
@@ -154,27 +151,13 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
   background-color: #0a2750;
-  height: 100vh;
-  min-height: 720px;
-  max-height: 800px;
-}
-
-.recipes {
-  position: relative;
-  padding-bottom: 215px; /* Espacamento para o rodapé */
-}
-
-.recipe__titles {
-  position: absolute;
+  box-sizing: border-box;
+  color: #ffffff;
 }
 
 .recipes__title {
-  position: absolute;
-  top: 100px;
-  margin: 0;
-  left: 80px;
+  padding: 100px 0 0 80px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -184,29 +167,32 @@ body {
 }
 
 .recipes__subtitle {
-  position: absolute;
-  top: 124px;
-  left: 80px;
-  margin-top: 24px;
+  padding: 24px 0 0 80px;
   max-width: 438px;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  margin-bottom: 80px;
-}
-
-.recipe__videos-container {
-  position: relative;
 }
 
 .recipe__videos {
-  position: relative;
   display: flex;
   justify-content: center;
   gap: 40px;
+  padding: 80px 0 215px 0;
 }
 
-.recipe__aeropress {
+.recipe__video__iframe {
+  height: 273px;
+  width: 480px;
+}
+
+.recipe__video_caption {
+  margin: 24px 0 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
 }
