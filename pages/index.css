@@ -131,7 +131,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #838383; /* Define a base para posicionamento absoluto dos parágrafos */
+  color: #838383;
 }
 
 .header__schedule {
@@ -195,4 +195,18 @@ body {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 80px;
+}
+
+.recipe__videos-container {
+  position: relative;
+}
+
+.recipe__videos {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.recipe__aeropress {
 }
