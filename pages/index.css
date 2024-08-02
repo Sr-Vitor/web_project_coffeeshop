@@ -1,5 +1,5 @@
 body {
-  /* Pode deixar vazio ou adicionar estilos globais, se necessário */
+  /* Estilos globais podem ser adicionados aqui */
 }
 
 .page {
@@ -46,7 +46,7 @@ body {
 }
 
 .nav__item {
-  /* Elemento para cada item de link de navegação */
+  /* Estilos para cada item de link de navegação */
 }
 
 .nav__link {
@@ -102,7 +102,7 @@ body {
   position: absolute;
   top: 124px;
   right: 5px;
-  z-index: 1;
+  /* z-index: ; */
 }
 
 .header__footer {
@@ -129,15 +129,18 @@ body {
 }
 
 .header__schedule {
-  /* margin-top: auto; */
-  display: flex;
-  flex-direction: column;
+  /* Estilos para a seção de horários */
+}
+
+.header__schedule-detail {
+  display: block;
+  /* margin-top: 5px; */
 }
 
 .header__address {
   margin-top: auto;
   text-align: right;
-  align-self: flex-start; /* Para alinhar à direita */
+  z-index: 2;
 }
 
 .content {
@@ -150,8 +153,11 @@ body {
   color: #ffffff;
 }
 
-.recipes__title {
+.recipes {
   padding: 100px 0 0 80px;
+}
+
+.recipes__title {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -161,7 +167,7 @@ body {
 }
 
 .recipes__subtitle {
-  padding: 24px 0 0 80px;
+  padding: 24px 0 0;
   max-width: 438px;
   font-family: "Noto Serif";
   font-style: normal;
@@ -178,7 +184,7 @@ body {
 }
 
 .recipes__video-item {
-  /* Estilos para cada item de vídeo */
+  /* Classe para cada item de vídeo */
 }
 
 .recipes__iframe {
@@ -196,9 +202,9 @@ body {
 }
 
 .content__reservation {
-  /* Classe para seção de reserva */
+  /* Estilos para a seção de reserva */
 }
 
 .footer {
-  /* Classe para o footer */
+  /* Estilos para o rodapé */
 }
