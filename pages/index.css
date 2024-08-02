@@ -63,7 +63,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: auto; /* Para posicionar corretamente o conteúdo */
 }
 
 .header__title {
@@ -130,11 +129,13 @@ body {
 }
 
 .header__schedule {
+  /* margin-top: auto; */
   display: flex;
   flex-direction: column;
 }
 
 .header__address {
+  margin-top: auto;
   text-align: right;
   align-self: flex-start; /* Para alinhar à direita */
 }
