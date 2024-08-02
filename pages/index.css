@@ -38,7 +38,7 @@ body {
   height: 39px;
 }
 
-.header__nav-links {
+.nav__links {
   display: flex;
   list-style-type: none;
   z-index: 3;
