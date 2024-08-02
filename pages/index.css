@@ -45,11 +45,11 @@ body {
   gap: 20px;
 }
 
-.header__nav-item {
+.nav__item {
   /* Elemento para cada item de link de navegação */
 }
 
-.header__nav-link {
+.nav__link {
   color: #000000;
   text-decoration: none;
   font-family: "Inter";
@@ -114,7 +114,8 @@ body {
 
 .header__footer-content {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .header__paragraph {
@@ -129,11 +130,14 @@ body {
 }
 
 .header__schedule {
-  /* display: block; */
+  display: flex;
+  flex-direction: column;
 }
 
 .header__address {
   text-align: right;
+  margin-top: auto;
+  /* max-width: 300px; */
 }
 
 .content {
@@ -173,16 +177,16 @@ body {
   padding: 80px 0 215px 0;
 }
 
-.content__recipes-video-item {
+.recipes__video-item {
   /* Adicionei essa classe para envolver cada item de vídeo */
 }
 
-.content__recipes-video-iframe {
+.recipes__iframe {
   height: 273px;
   width: 480px;
 }
 
-.content__recipes-video-caption {
+.recipes__video-caption {
   margin: 24px 0 0 0;
   font-family: "Inter";
   font-style: normal;
