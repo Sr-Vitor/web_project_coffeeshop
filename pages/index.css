@@ -198,10 +198,193 @@ body {
   line-height: 30px;
 }
 
-.main-content__reservation {
-  /* Classe para seção de reserva */
+/* Início da sessão de reserva */
+/* .reservation {
+  background-image: url(../images/background_reservation.svg);
+  background-color: #d9e7ff;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+.reservation__title {
+  text-align: center;
+  color: #000000;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.reservation__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  padding-bottom: 120px;
+}
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.reservation__input-container {
+  display: flex;
+  flex-direction: column;
+}
+.reservation__label {
+  text-align: start;
+  color: #000000;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.reservation__input {
+  max-width: 385px;
+  height: 60px;
+  display: flex;
+  margin: 8px 0 32px 0;
+  border: 1px solid #000000;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .footer {
-  /* Classe para o footer */
+}
+input {
+}
+.reservation__button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+} */
+
+/* Estilo geral para a seção de reserva */
+.reservation {
+  text-align: center;
+  padding: 100px 0 120px 0;
+  background-image: url(../images/background_reservation.svg);
+  background-color: #d9e7ff;
+  background-position: center;
+  background-size: cover;
+}
+fieldset {
+  margin: 0;
+  border: 0;
+  outline: 0;
+}
+.reservation__title {
+  margin-bottom: 80px;
+  font-family: Inter;
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+/* Estilos para o formulário de reserva */
+.reservation__form {
+  max-width: 385px;
+  margin: 0 auto;
+}
+
+.reservantion__input-container {
+  /* margin-bottom: 60px;
+  position: relative; */
+}
+
+.reservation__label {
+  display: block;
+  font-size: 1rem;
+  text-align: start;
+  color: #000000;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* Estilos para os campos de input */
+.reservation__input {
+  width: 100%;
+  height: 60px;
+  padding: 15px 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Garante que o padding seja considerado no tamanho total */
+  margin-top: 8px;
+  margin-bottom: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.reservation__input::placeholder {
+  color: #838383;
+  font-size: 1rem;
+}
+
+/* Estilos para o botão de submissão */
+.reservation__button-submit {
+  width: 100%;
+  height: 60px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.reservation__button-submit:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para a caixa de termos e checkbox */
+.reservation__terms {
+  text-align: center;
+}
+
+.reservation__label-terms {
+  font-size: 1rem;
+  margin: 0 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-left: 12px;
+}
+
+/* .reservation__input-terms {
+  width: 20px;
+  height: 20px;
+  display: inline;
+  align-items: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  color: #000000;
+} */
+
+input[type="checkbox"] {
+  /* -webkit-appearance: none; */
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
 }
