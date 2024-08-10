@@ -119,18 +119,15 @@
 
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar um mesa</h2>
-          <form class="reservation__form">
+          <form class="form form__reservation">
             <fieldset
-              class="reservantion__input-container reservantion__input-container_texts"
+              class="form__input-container reservantion__input-container_texts"
             >
-              <label
-                for="name"
-                class="reservation__label reservation__label-name"
-              >
+              <label for="name" class="form__label form__label_name">
                 Nome*
                 <input
                   type="text"
-                  class="reservation__input reservation__input-name"
+                  class="form__input form__input_name"
                   id="name"
                   placeholder="Nome"
                   required
@@ -139,60 +136,54 @@
 
               <label
                 for="number"
-                class="reservation__label reservartion__label-gest_number"
+                class="form__label reservartion__label-gest_number"
               >
                 Número de Convidados*
                 <input
-                  type="text"
+                  type="number"
                   min="1"
                   max="8"
                   id="number"
-                  class="reservation__input reservation__input-gest_number"
+                  class="form__input form__input-gest_number"
                   placeholder="1-8"
                   required
                 />
               </label>
 
-              <label
-                for="date"
-                class="reservation__label reservation__label-date"
-                >Data e hora*
+              <label for="date" class="form__label form__label-date">
+                Data e hora*
                 <input
                   type="datetime-local"
                   id="date"
-                  class="reservation__input reservation__input-date"
-                  placeholder="mm/dd/aa --:-- --"
+                  class="form__input form__input-date"
                   required
                 />
               </label>
 
-              <label
-                for="email"
-                class="reservation__label reservation__label-email"
-                >Seu e-mail*
+              <label for="email" class="form__label form__label-email">
+                Seu e-mail*
                 <input
                   type="email"
                   id="email"
-                  class="reservation__input reservation__input-email"
+                  class="form__input form__input-email"
                   placeholder="email@email.com"
-              /></label>
+                />
+              </label>
             </fieldset>
-            <fieldset class="reservantion__input-container reservation__submit">
-              <button class="reservation__button reservation__button-submit">
+            <fieldset class="reservantion__input_container form__submit">
+              <button class="form__button form__button-submit">
                 Reservar uma mesa
               </button>
             </fieldset>
-            <fieldset class="reservantion__input-container reservation__terms">
-              <label
-                for="checkbox"
-                class="reservation__label reservation__label-terms"
-              >
+            <fieldset class="reservantion__input_container form__terms">
+              <label for="checkbox" class="form__label form__label_terms">
                 <input
                   type="checkbox"
-                  class="reservation__input reservation__input-terms"
+                  class="form__input form__input_terms"
                   id="checkbox"
                   required
-                />Eu concordo com os termos de uso
+                />
+                <span> Eu concordo com os termos de uso </span>
               </label>
             </fieldset>
           </form>
