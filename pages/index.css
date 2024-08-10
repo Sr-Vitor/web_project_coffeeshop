@@ -292,17 +292,17 @@ fieldset {
 }
 
 /* Estilos para o formulário de reserva */
-.form__reservation {
+.reservation__form {
   max-width: 385px;
   margin: 0 auto;
 }
 
-.reservantion__input-container {
+.reservantion__input_container {
   /* margin-bottom: 60px;
   position: relative; */
 }
 
-.form__label {
+.reservation__label {
   display: block;
   font-size: 1rem;
   text-align: start;
@@ -315,11 +315,11 @@ fieldset {
 }
 
 /* Estilos para os campos de input */
-.form__input {
+.reservation__input__form {
   width: 100%;
   height: 60px;
   padding: 15px 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #838383;
   box-sizing: border-box; /* Garante que o padding seja considerado no tamanho total */
   margin-top: 8px;
   margin-bottom: 32px;
@@ -328,35 +328,40 @@ fieldset {
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  border-radius: 4px;
 }
 
-.form__input::placeholder {
+.reservation__input__form::placeholder {
   color: #838383;
   font-size: 1rem;
 }
 
 /* Estilos para o botão de submissão */
-.form__button-submit {
+.reservation__button_submit {
   width: 100%;
   height: 60px;
-  background-color: #007bff;
-  color: white;
-  border: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
   border-radius: 4px;
-  font-size: 1rem;
-  cursor: pointer;
+  color: #ffffff;
+  background-color: #2f80ed;
+  border: 1px solid #838383;
 }
 
-.form__button-submit:hover {
+.reservation__button_submit:hover {
   background-color: #0056b3;
+  opacity: 70%;
 }
 
 /* Estilos para a caixa de termos e checkbox */
-.form__terms {
+.reservation__terms {
   text-align: center;
 }
 
-.form__label_terms {
+.reservation__label_terms {
   font-size: 1rem;
   align-items: center;
   display: flex;
@@ -364,7 +369,7 @@ fieldset {
   justify-content: center;
 }
 
-.form__input_terms {
+.reservation__input__form_terms {
   width: 20px;
   height: 20px;
   margin: 0;
