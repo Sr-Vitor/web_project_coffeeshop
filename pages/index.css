@@ -282,7 +282,7 @@ fieldset {
   outline: 0;
 }
 .reservation__title {
-  margin: 0 0 80px 0;
+  padding-bottom: 80px;
   font-family: Inter;
   color: #000000;
   font-style: normal;
@@ -297,7 +297,7 @@ fieldset {
   margin: 0 auto;
 }
 
-.reservantion__input_container {
+.reservantion__input_text {
   /* margin-bottom: 60px;
   position: relative; */
 }
