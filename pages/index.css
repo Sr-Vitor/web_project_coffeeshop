@@ -270,7 +270,7 @@ input {
 /* Estilo geral para a seção de reserva */
 .reservation {
   text-align: center;
-  padding: 100px 0 120px 0;
+  padding: 0 0 120px 0;
   background-image: url(../images/background_reservation.svg);
   background-color: #d9e7ff;
   background-position: center;
@@ -282,7 +282,8 @@ fieldset {
   outline: 0;
 }
 .reservation__title {
-  padding-bottom: 80px;
+  padding: 100px 0 80px 0;
+
   font-family: Inter;
   color: #000000;
   font-style: normal;
@@ -295,11 +296,6 @@ fieldset {
 .reservation__form {
   max-width: 385px;
   margin: 0 auto;
-}
-
-.reservantion__input_text {
-  /* margin-bottom: 60px;
-  position: relative; */
 }
 
 .reservation__label {
@@ -315,7 +311,7 @@ fieldset {
 }
 
 /* Estilos para os campos de input */
-.reservation__input__form {
+.reservation__input {
   width: 100%;
   height: 60px;
   padding: 15px 20px;
@@ -369,7 +365,7 @@ fieldset {
   justify-content: center;
 }
 
-.reservation__input__form_terms {
+.reservation__input_form {
   width: 20px;
   height: 20px;
   margin: 0;
