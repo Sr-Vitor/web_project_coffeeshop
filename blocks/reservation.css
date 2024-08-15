@@ -1,0 +1,107 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/reservation.css);
+
+.reservation {
+  text-align: center;
+  padding: 0 0 120px 0;
+  background-image: url(../images/background_reservation.svg);
+  background-color: #d9e7ff;
+  background-position: center;
+  background-size: cover;
+}
+
+.reservation__title {
+  margin: 0 auto 80px auto;
+  padding: 100px 0 0 0;
+  font-family: Inter;
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+/* Estilos para o formulário de reserva */
+.reservation__form {
+  max-width: 385px;
+  margin: 0 auto;
+}
+
+.reservation__label {
+  display: block;
+  font-size: 1rem;
+  text-align: start;
+  color: #000000;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* Estilos para os campos de input */
+.reservation__input {
+  width: 100%;
+  height: 60px;
+  padding: 15px 20px;
+  border: 1px solid #838383;
+  box-sizing: border-box;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 4px;
+}
+
+.reservation__input::placeholder {
+  color: #838383;
+  font-size: 1rem;
+}
+
+/* Estilos para o botão de submissão */
+.reservation__button_submit {
+  width: 100%;
+  height: 60px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #2f80ed;
+  border: 1px solid #838383;
+}
+
+.reservation__button_submit:hover {
+  background-color: #0056b3;
+  opacity: 100%;
+}
+
+/* Estilos para a caixa de termos e checkbox */
+.reservation__terms {
+  text-align: center;
+}
+
+.reservation__label_terms {
+  font-size: 1rem;
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.reservation__input_form {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  border: 0;
+  outline: 0;
+}
