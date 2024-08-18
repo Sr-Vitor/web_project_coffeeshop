@@ -1,0 +1,10 @@
+.content {
+  background-image: url(../images/background_recipes.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0a2750;
+  box-sizing: border-box;
+  color: #ffffff;
+  z-index: 15;
+}

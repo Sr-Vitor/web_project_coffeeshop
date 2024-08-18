@@ -1,14 +1,3 @@
-.content {
-  background-image: url(../images/background_recipes.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #0a2750;
-  box-sizing: border-box;
-  color: #ffffff;
-  z-index: 15;
-}
-
 .recipes {
   padding: 100px 0 0 80px;
 }
