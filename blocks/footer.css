@@ -1,6 +1,3 @@
-@import url(../vendor/normalize.css);
-@import url(../blocks/footer.css);
-
 .footer {
   position: relative;
   box-sizing: border-box;
